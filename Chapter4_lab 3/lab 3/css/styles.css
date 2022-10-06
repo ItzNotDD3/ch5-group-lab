@@ -5,22 +5,17 @@
 */
 
 /* CSS Reset */
-body, header, nav, footer {
-  margin: 0;
-  padding: 0;
-  border: 0;
+body, header, nav, main, footer, img, h1, ul {
+margin: 0;
+padding: 0;
+border: 0;
+
 }
-
-/* Style Rule for body and image */
-
-body {
-  background-color: #e3eaf8;
-}
-
-/*Style rule for image */
+/*style rule for images */
 img {
-  max-width: 100%
-  display:block;
+  max-width: 100%;
+  display: block;
+
 }
 /* style rule for mobile viewpoint */
 
@@ -30,63 +25,112 @@ img {
   display: none;
 
 }
-
-/* Style rule for for header content */
-header h1{
+/* style rule for header content */
+header {
   text-align: center;
-  font-size: 3em;
-  font-family: Georgia, Times, serif;
-  padding: 3%;
-  color: #101a2d;
-}
-
-/* Style rules for naviagtion area */
-nav {
-  background-color: #1d396d;
-
-}
-
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  text-align: center;
-
-}
-
-nav li{
-  display: inline-block;
   font-size: 1.5em;
-  font-family: Verdana, Arielm san-sans-serif;
-  font-weight: bold;
-}
+  color: #373684;
 
-nav li a{
+}
+header h1 {
+  font-style:italic;
+  font-family: DM Serif display;
+
+}
+/* style rule for navigation area */
+nav {
+  background-color: #373684;
+
+}
+nav ul {
+  list-style-type:none;
+  text-align: center;
+
+}
+nav li {
   display: block;
-  color: #e3eaf8;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
-  padding-left: 2em;
-  padding-right: 2em;
+  font-size: 2em;
+  border-top: 1px solid #e5e9fc;
+
+}
+nav li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 0.5em 1em;
   text-decoration: none;
 
+}
+/* style rule for main content */
+main {
+  padding: 2%;
+  background-color: #e5e9fc;
+  overflow: auto;
+  font-family: Verdanaq, Arial, sans-serif;
 
 }
+main p {
+  font-size: 1.25em;
 
+}
+.action {
+  font-size: 1.25em;
+  color: #373684;
+  font-weight: bold;
 
-/* Style rule for footer content*/
+}
+#piano, #guitar, #violin {
+  margin: 0 2%;
+
+}
+#info {
+  clear: left;
+  background-color: #c0caf7;
+  padding: 1% 2%;
+
+}
+#info ul {
+  margin-left: 10%
+
+}
+#contact {
+  text-align: center;
+
+}
+#contact .email-link {
+  color: #4645a8;
+  text-decoration: none;
+  font-weight: bold;
+
+}
+.tel-link {
+  background-color: #373684;
+  padding: 2%;
+  margin: auto;
+  width: 80%;
+  text-align: center;
+  border-radius: 5px;
+
+}
+.tel-link a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5em;
+  display: block;
+
+}
+.map {
+  border: 5px solid #373684;
+
+}
+/* style rules for footer content */
 footer {
   text-align: center;
-  font-size: 0.85em;
-  background-color: #1d396d;
-  color: #e3eaf8;
-  padding-top: 1%;
-  padding-bottom: 1%;
-  padding-right: 0%;
-  padding-left: 0%;
+  font-size: 0.65em;
+  clear: left;
 
 }
-
-footer a{
-  color: #e3eaf8;
+footer a {
+  color:#4645a8;
   text-decoration: none;
 }
