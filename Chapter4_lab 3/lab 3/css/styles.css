@@ -22,6 +22,14 @@ img {
   max-width: 100%
   display:block;
 }
+/* style rule for mobile viewpoint */
+
+
+/* hide tab-desk class */
+.tab-desk {
+  display: none;
+
+}
 
 /* Style rule for for header content */
 header h1{
